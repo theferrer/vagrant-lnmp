@@ -9,7 +9,7 @@ Ubuntu Server 12.04 + Nginx + PHP + MySQL + MongoDB + NodeJS + Redis and more...
 How
 ===
  1. Clone this repository:
-      `git clone git://github.com/theferrer/vagrantmach.git`
+      `git clone git://github.com/theferrer/vagrant-lnmp.git`
  2. Edit `manifests/main.pp` to manage the packages you want and add the virtual hosts with `addServer`.
  3. Choose between to use guest address `47.47.47.47` or host address `127.0.0.1` (Port redirection enabled by default) and update `/etc/host` to accomplish your own requirements.
     For example: `47.47.47.47 adminer.local`
